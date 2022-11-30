@@ -1,0 +1,84 @@
+.left {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10em;
+	/* background-color: brown; */
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.studenth1 {
+	/* margin-top: 10; */
+	color: brown;
+	text-align: center;
+	font-size: 30px;
+	/* padding-top: 2em; */
+	/* align-self: center; */
+}
+
+.right {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: brown;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	/* padding-top:8rem */
+}
+
+.form_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form_container h1 {
+	font-size: 20px;
+	/* margin-top: 0; */
+}
+
+.inputw {
+	outline: none;
+	border: none;
+	width: 270px;
+	padding: 7px;
+	border-radius: 10px;
+	background-color: white;
+	margin: 5px 0;
+	font-size: 12px;
+}
+
+.error_msg {
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.white_btn,
+.green_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.green_btn {
+	background-color: brown;
+	color: white;
+	margin: 20px;
+}
